@@ -1,0 +1,21 @@
+- Alterar ícone da aplicação
+1) Usar apenas formatos png ou jpeg
+2) Abrir a pasta "res", clicar com o botão direito em
+mipmap, depois new, e depois image asset. Abrirá uma janela
+com opções de criação.
+Obs: pode criar ícone usando imagem, clip art ou texto
+3) Para adicionar a imagem do app, selecionar a opção Foreground Layer,
+clicar em image, depois clicar em Path e localizar a pasta onde se encontra o
+arquivo. Encontrando o arquivo, selecionar e clicar ok
+Obs: Em Scaling fazer o ajuste do tamanho da imagem ao molde do ícone.
+Se quiser mudar o fundo, basta clicar em Background Layer.
+Feito isso, clicar em next e depois finish
+
+-Inserir imagens no app
+1) Abrir a pasta onde as imagens se encontram,
+copiar os arquivos
+obs: Não usar traços, espaços ou caracteres especiais no
+nome dos arquivos de imagem
+2) No projeto do app, clicar com o botão direito na pasta
+res -> Drawable e colar os arquivos das imagens 
+3) Em activity_main.xml clicar em Palette -> Common -> ImageView
