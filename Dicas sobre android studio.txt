@@ -5,7 +5,13 @@ das cores desejadas. Antes precisa pegar o código hex da cor.
 o código deve ficar assim:
 <color name = "nomeparaacor">#XXXXXX</color> (XXXXXX é o código hex da cor)
 2) No MainActivity.java quando for usar a cor, fazer:
-xxx.setTextColor(getResources().getColor(R.color.nomeparaacor
+xxx.setTextColor(getResources().getColor(R.color.nomeparaacor)); (xxx é o nome da variável que deseja mudar a cor)
+Modo 2: Usando a classe Color com o código hex
+1) No MainActivity.java inserir o nome da variável que deseja mudar de cor:
+xxx.setTextColor(Color.parseColor("#XXXXXX")); (xxx é o nome da variável e o #XXXXXX é o código hex da cor)
+Modo 3: Acrescentando a Classe Color e usando uma cor constante existente
+1) No MainActivity.java usar:
+xxx.setTextColor(Color.RED);
 
 
 
