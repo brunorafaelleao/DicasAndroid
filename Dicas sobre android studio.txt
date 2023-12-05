@@ -1,5 +1,12 @@
+- Alterar um textView sem precisar adicionar uma string manualmente
+1) em language (provavelmente estará Default-us) clicar e selecionar a opção
+edit Translations.
+Adicionar as keys e depois os nomes nos referidos idiomas.
+2) Selecionar a textView, ir em attributes e selecionar text. Buscar o nome
+da string criada em translations
+
 - Alterar ícone da aplicação
-1) Usar apenas formatos png ou jpeg
+1) Usar apenas formatos png ou jpeg. Preferência png por conta da facilidade de usar fundo transparente
 2) Abrir a pasta "res", clicar com o botão direito em
 mipmap, depois new, e depois image asset. Abrirá uma janela
 com opções de criação.
@@ -19,3 +26,10 @@ nome dos arquivos de imagem
 2) No projeto do app, clicar com o botão direito na pasta
 res -> Drawable e colar os arquivos das imagens 
 3) Em activity_main.xml clicar em Palette -> Common -> ImageView
+Ao inserir no visual, ajustar a imagem
+
+- Mudar cor de botões
+1) Após adicionar o botão (Common -> Button) localizar na guia atributos:
+"textColor".
+No caso, mudar no código do activity.main de <button> para <AppCompatButton>
+o sistema vai preencher o restante do código
