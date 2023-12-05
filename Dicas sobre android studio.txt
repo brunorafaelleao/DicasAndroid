@@ -1,3 +1,14 @@
+- Alterar a cor de textos (textView)
+Modo 1: Acrescentando os valores das cores no xml
+1) Criar no xml das cores (res -> values -> colors.xml) as variáveis
+das cores desejadas. Antes precisa pegar o código hex da cor.
+o código deve ficar assim:
+<color name = "nomeparaacor">#XXXXXX</color> (XXXXXX é o código hex da cor)
+2) No MainActivity.java quando for usar a cor, fazer:
+xxx.setTextColor(getResources().getColor(R.color.nomeparaacor
+
+
+
 - Alterar um textView sem precisar adicionar uma string manualmente
 1) em language (provavelmente estará Default-us) clicar e selecionar a opção
 edit Translations.
