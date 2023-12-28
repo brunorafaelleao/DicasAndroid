@@ -88,3 +88,6 @@ binding = ActivityMainBinding.inflate(layoutInflater)
             val nome = binding.editnome.text.toString()
         //TextResultado é o id do textView
             binding.textResultado.text = "Olá, "+ nome
+            binding.textResultado.text = "Olá, ${nome}"
+            binding.textResultado.setText("Olá, "+ nome)
+
