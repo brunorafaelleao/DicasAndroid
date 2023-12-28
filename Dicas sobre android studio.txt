@@ -77,3 +77,14 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
+- Ação que permite ler um texto em uma caixa de diálogo (plain Text) e ao clicar em um botão
+o botão reconhece o texto e exibe uma mensagem numa TextView.
+Depois de:
+binding = ActivityMainBinding.inflate(layoutInflater)
+        //mudança do setContentView ()
+        setContentView(binding.root)
+//botaoOla é o id do button
+        binding.botaoOla.setOnClickListener {
+            val nome = binding.editnome.text.toString()
+        //TextResultado é o id do textView
+            binding.textResultado.text = "Olá, "+ nome
