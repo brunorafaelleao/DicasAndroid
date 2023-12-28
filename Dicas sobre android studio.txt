@@ -60,3 +60,20 @@ viewBinding{
 - Habilitar a opção de importar automaticamente as bibliotecas
 1) File -> New Projects Setup -> Settings for New project -> Other Settings -> (localizar o Kotlin e marcar as
 caixas de diálogo "add..." e "optimize..."
+
+- Modificações para trabalhar com o Binding
+1) criar a variável global binding, inseri-la entre o super e o setContentView. Além disso, mudar o atributo do setContentView 
+
+class MainActivity : AppCompatActivity() {
+//variavel global binding criada
+    private lateinit var binding: ActivityMainBinding
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        //acrescentar o binding
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        //mudança do setContentView ()
+        setContentView(binding.root)
+    }
+}
+
