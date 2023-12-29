@@ -55,7 +55,7 @@ KOTLIN
 1) Ir em Gradle Scripts -> build.gradle.kts.
 após o kotlinOptions{ xxxxx} digitar:
 viewBinding{
-        enable = true
+        enabled = true
     }
 - Habilitar a opção de importar automaticamente as bibliotecas
 1) File -> New Projects Setup -> Settings for New project -> Other Settings -> (localizar o Kotlin e marcar as
