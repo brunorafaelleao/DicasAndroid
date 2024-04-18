@@ -312,3 +312,14 @@ binding = ActivityMainBinding.inflate(layoutInflater)
             binding.textResultado.text = "Olá, ${nome}"
             binding.textResultado.setText("Olá, "+ nome)
 
+14) Distribuir ou Alinhar uniformemente objetos num layout usand chain:
+- Selecionar os objetos, clicar com o botão direito e selecionar a opção "chain"
+- Selecionar se quer na vertical ou horizontal
+
+15) Linha Guia (Guideline) para alinhar os elementos objetos num layout
+- Pode ser inserida clicando com o botão direito no layout e selecionando a opção
+add helpers
+- Pode também ser inserida clicando em palettes -> helper -> guideline
+
+16) 
+
