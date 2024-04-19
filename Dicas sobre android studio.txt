@@ -321,5 +321,7 @@ binding = ActivityMainBinding.inflate(layoutInflater)
 add helpers
 - Pode também ser inserida clicando em palettes -> helper -> guideline
 
-16) 
+16) Padding - uso para preencher espaços dentro de bordas internas
+
+
 
