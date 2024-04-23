@@ -323,5 +323,14 @@ add helpers
 
 16) Padding - uso para preencher espaços dentro de bordas internas
 
-
-
+17) Implementar o ViewBinding
+- Dentro do arquivo build.gradle(app), após kotlinOptions{
+ jmTarget = '1.8'
+}//inserir o código:
+buildFeatures{
+ viewBinding = true
+}
+- para versões mais antigas inserir o código:
+viewBinding{
+enabled = true
+}
