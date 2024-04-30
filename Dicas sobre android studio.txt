@@ -338,4 +338,10 @@ enabled = true
 16) Usando TextInputLayout
 - EndIcon para exibir senha ou limpar digitação
 
+17) Como fixar uma tela na posição Retrato (celular em pé):
+- em AndroidManifest acrescentar linha: "android:screenOrientation="portrait"
+<activity
+    android:name=".nomedaActivity"
+    android:screenOrientation="portrait"
+
 
