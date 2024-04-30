@@ -334,3 +334,8 @@ buildFeatures{
 viewBinding{
 enabled = true
 }
+
+16) Usando TextInputLayout
+- EndIcon para exibir senha ou limpar digitação
+
+
