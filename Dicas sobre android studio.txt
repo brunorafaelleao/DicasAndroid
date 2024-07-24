@@ -344,4 +344,23 @@ enabled = true
     android:name=".nomedaActivity"
     android:screenOrientation="portrait"
 
+18) Configurar a biblioteca Retrofit para acessar uma API
+- Implementar a biblioteca nas dependências do projeto (build.gradle)
+//dependencias do retrofit e Gson
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+- Criar uma classe para configurar o Retrofit
+será a Classe Retrofit.Builder() que retornará um o objeto retrofit.
+ex: Vamos criar o pacote api e dentro desse pacote criar a instância Retrofit
+class RetrofitInstancia{
+  companion object {
+      val retrofit = Retrofit.Builder()
+          .baseUrl("https://api-xoaedes3.herokuapp.com/checklistdengue")
+          .addConverterFactory(GsonConverterFactory.create()) //conversor
+          .build()
+  }
+}
+
+
+
 
