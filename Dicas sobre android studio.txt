@@ -362,5 +362,40 @@ class RetrofitInstancia{
 }
 
 
+19) Criar caixa de texto para inserir nome e senha usando TextInputLayout
+-> Para criar a caixa, inserir a widget TextInputLayout.
+ex:
+ <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/caixaSenha"
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            app:boxStrokeColor="@drawable/cor_borda_input"
+            app:cursorColor="@color/cor1"
+            app:endIconMode="password_toggle"
+            app:hintTextColor="@color/cor1">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/senha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/senha"
+                android:inputType="textPassword"
+                android:textColor="@color/cor1"
+                tools:ignore="TextContrastCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+-> Para configurar a cor da caixa de texto, na parte do textfield.TextInputLayout usar a propriedade/atributo:
+app:boxStrokeColor="@drawable/cor_borda_input"
+É preciso observar que esse drawable é um arquivo xml salvo na pasta res/draeable com a seguinte configuração:
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/cor1" android:state_focused="true"/>
+    <item android:color="@color/cor1" android:state_hovered="false"/>
+</selector>
+
+
+
 
 
