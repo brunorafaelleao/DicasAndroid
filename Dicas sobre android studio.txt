@@ -394,8 +394,11 @@ app:boxStrokeColor="@drawable/cor_borda_input"
     <item android:color="@color/cor1" android:state_focused="true"/>
     <item android:color="@color/cor1" android:state_hovered="false"/>
 </selector>
-
-
+-> Para alterar as cores da caixa, do cursor, do hint ou do texto do TextInputLayout:
+a) cor do texto ao digitar: Inserir atributo android:textColor="nome_ou_hex_da_cor" em TextInputEditText
+b) cor do hint (placeholder) ao iniciar a digitação: app:hintTextColor em TextInputLayout
+c) cor do texto antes de digitar: android:textColorHint em TextInputLayout
+d) cor do texto digitado/digitando:  app:cursorColor em TextInputLayout
 
 
 
