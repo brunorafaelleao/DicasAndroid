@@ -401,4 +401,10 @@ c) cor do texto antes de digitar: android:textColorHint em TextInputLayout
 d) cor do texto digitado/digitando:  app:cursorColor em TextInputLayout
 
 
+20) Inserir um ícone em  um botão (button)
+-> Para inserir um ícone dentro de um botão, usamos a propriedade drawable. Clicamos em attributes e depois procuramos drawable e
+selecionamos a posição do ícone no botão (bottom, left, right ou top)
 
+
+21) Como configurar um Tema (paleta de cores) do aplicativo
+-> Primeiramente, definir as cores do projeto e acrescentá-las em 
