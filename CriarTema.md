@@ -1,2 +1,2 @@
-#Como criar/configurar um tema para um Arquivo Android
+# Como criar/configurar um tema para um Arquivo Android
 
