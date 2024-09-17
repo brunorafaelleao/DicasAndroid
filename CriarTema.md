@@ -1,6 +1,7 @@
 ## Como criar/configurar um tema para um Arquivo Android
 ### 1) Definir as cores do projeto
 1.1) O Android Studio tem um arquivo em que as cores são declaradas/definidas e fica na pasta app/src/main/res/values/colors.xml
+
 1.2) Para definir/declarar uma nova cor, dentro de resources usar a tag <color name=
 ex:
 ```
