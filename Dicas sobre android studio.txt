@@ -406,5 +406,3 @@ d) cor do texto digitado/digitando:  app:cursorColor em TextInputLayout
 selecionamos a posição do ícone no botão (bottom, left, right ou top)
 
 
-21) Como configurar um Tema (paleta de cores) do aplicativo
--> Primeiramente, definir as cores do projeto e acrescentá-las em 
