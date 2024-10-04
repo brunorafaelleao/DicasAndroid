@@ -60,6 +60,29 @@ Obs: O exemplo acima é para uma ação de clique em botão para fechar
   
 ![image](https://github.com/user-attachments/assets/34b9ec60-db54-49ee-a033-c4ac998264da)
 
+## => Passar dados de uma activity para outra
+### 1) Passar parâmetros na primeira tela
+- Na tela de onde queremos capturar os dados vamos usar o método putExtra que precisa de dois parâmetros: name e value
+- intent.putExtra(name: "filme", value: "The Witcher")
+```
+//pegando o exemplo de como iniciar uma nova activity:
+val intent = Intent(this, secundaryActivity::class.java)
+intent.putExtra(name: "filme", value: "The Witcher")
+startActivity( intent)
+```
+Obs: Ao inicar a nova activity ele vai levar também o dado capturado pelo putExtra
+### 2) Receber os parâmetros
+- Na segunda tela vamos criar um objeto bundle
+ex: val bundle = intent.extras
+(isso se dá pq Bundle agrupa valores. E quando usamos o intent seguido de .extras estamos querendo os valores que foram
+salvos na tela anterior como putExtras
+- criar o objeto que precisamos
+ex: val filme = bundle.getString(key:"filme")
+```
+val bundle = intent.extras
+val filme = bundle.getString(key:"filme") //esse filme é o nome que declarei na tela anterior
+textValor.text = filme
+```
 
 
 
