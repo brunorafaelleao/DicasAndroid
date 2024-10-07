@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ExercicioIMC</string>
+    <string name="digite_peso">Digite o seu peso ex: 74,8</string>
+    <string name="digite_altura">Digite a sua altura ex: 1,50</string>
+    <string name="calcular">Calcular IMC</string>
+    <string name="Diagnostico">Diagnóstico</string>
 </resources>

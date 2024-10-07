@@ -3,14 +3,13 @@
     <style name="Base.Theme.ExercicioIMC" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-        <item name="colorPrimary">#EC2024</item>
-        <item name="colorPrimaryVariant">#D91B1E</item> <!-- Um tom mais escuro da cor primária -->
-        <item name="colorOnPrimary">#FFFFFF</item> <!-- Cor do texto ou ícones sobre o fundo vermelho -->
-        <item name="colorSecondary">#0A74DA</item> <!-- Cor secundária para complementar -->
-        <item name="colorOnSecondary">#FFFFFF</item> <!-- Cor do texto/ícones sobre o fundo secundário -->
-        <item name="android:windowBackground">#EC2024</item> <!-- Fundo cinza claro -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item> <!-- Um tom mais escuro da cor primária -->
+        <item name="colorOnPrimary">@color/colorOnPrimary</item> <!-- Cor do texto ou ícones sobre o fundo vermelho -->
+        <item name="colorSecondary">@color/colorSecondary</item> <!-- Cor secundária para complementar -->
+        <item name="colorOnSecondary">@color/white</item> <!-- Cor do texto/ícones sobre o fundo secundário -->
+        <item name="android:windowBackground">@color/colorPrimaryVariant</item>
 
     </style>
 
-    <style name="Theme.ExercicioIMC" parent="Base.Theme.ExercicioIMC" />
 </resources>

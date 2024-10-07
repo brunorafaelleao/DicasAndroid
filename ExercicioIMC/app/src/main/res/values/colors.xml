@@ -6,5 +6,7 @@
     <color name="colorPrimaryVariant">#D91B1E</color> <!-- Um tom mais escuro da cor primária -->
     <color name="colorOnPrimary">#FFFFFF</color> <!-- Cor do texto ou ícones sobre o fundo vermelho -->
     <color name="colorSecondary">#0A74DA</color> <!-- Cor secundária para complementar -->
+    <color name="colorHint">#A49B9B</color> <!-- Cor secundária para complementar -->
+    <color name="colorFundo">#F5F5F5</color> <!-- Cor secundária para complementar -->
 
 </resources>
