@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#EC2024</color>
+    <color name="colorPrimaryVariant">#D91B1E</color> <!-- Um tom mais escuro da cor primária -->
+    <color name="colorOnPrimary">#FFFFFF</color> <!-- Cor do texto ou ícones sobre o fundo vermelho -->
+    <color name="colorSecondary">#0A74DA</color> <!-- Cor secundária para complementar -->
+
+</resources>
