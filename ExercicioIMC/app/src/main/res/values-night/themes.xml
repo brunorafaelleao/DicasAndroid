@@ -3,5 +3,11 @@
     <style name="Base.Theme.ExercicioIMC" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item> <!-- Um tom mais escuro da cor primária -->
+        <item name="colorOnPrimary">@color/colorOnPrimary</item> <!-- Cor do texto ou ícones sobre o fundo vermelho -->
+        <item name="colorSecondary">@color/colorSecondary</item> <!-- Cor secundária para complementar -->
+        <item name="colorOnSecondary">@color/white</item> <!-- Cor do texto/ícones sobre o fundo secundário -->
+        <item name="android:windowBackground">@color/colorPrimaryVariant</item>
     </style>
 </resources>

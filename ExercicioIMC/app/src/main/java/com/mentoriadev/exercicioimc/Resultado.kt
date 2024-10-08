@@ -1,10 +1,7 @@
 package com.mentoriadev.exercicioimc
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.mentoriadev.exercicioimc.databinding.ActivityResultadoBinding
 
 class Resultado : AppCompatActivity() {
@@ -15,5 +12,16 @@ class Resultado : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
+        binding.txtPesoInformado.text = "Peso informado: ${DataManager.imc?.peso} kg"
+        binding.txtAlturaInformada.text = "Altura informada: ${DataManager.imc?.altura} m"
+
+        val imc = DataManager.imc?.imc
+
+//        if (imc!! < 18.5){
+//            "Abaixo do peso"
+//        }else if ()
+
+
     }
 }
