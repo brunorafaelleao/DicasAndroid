@@ -1,6 +1,7 @@
 package com.mentoriadev.exercicioimc
 
 import android.os.Bundle
+import android.window.OnBackInvokedDispatcher
 import androidx.appcompat.app.AppCompatActivity
 import com.mentoriadev.exercicioimc.databinding.ActivityResultadoBinding
 
@@ -29,4 +30,5 @@ class Resultado : AppCompatActivity() {
             binding.txtResultado.text = "Obesidade"
 
     }
+
 }

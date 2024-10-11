@@ -38,4 +38,11 @@ class MainActivity : AppCompatActivity() {
         }
         
     }
+
+    override fun onResume() {
+        super.onResume()
+        // Limpar os campos de entrada
+        binding.edtPeso.text?.clear()
+        binding.edtAltura.text?.clear()
+    }
 }
