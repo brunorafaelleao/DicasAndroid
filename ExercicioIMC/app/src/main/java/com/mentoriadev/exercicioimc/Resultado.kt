@@ -13,15 +13,20 @@ class Resultado : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        binding.txtPesoInformado.text = "Peso informado: ${DataManager.imc?.peso} kg"
-        binding.txtAlturaInformada.text = "Altura informada: ${DataManager.imc?.altura} m"
+        binding.txtPesoInformado.text = "Seu peso informado: ${DataManager.imc?.peso} kg"
+        binding.txtAlturaInformada.text = "Sua altura informada: ${DataManager.imc?.altura} m"
+        binding.txtIMC.text = "Seu IMC: ${String.format("%.2f",DataManager.imc?.imc)}"
 
         val imc = DataManager.imc?.imc
 
-//        if (imc!! < 18.5){
-//            "Abaixo do peso"
-//        }else if ()
-
+        if (imc!! < 18.5){
+           binding.txtResultado.text = "Abaixo do peso"
+        }else if (imc!! >=18.5 && imc <= 24.9) {
+            binding.txtResultado.text = "Peso normal"
+        }else if (imc!! >24.9 && imc!!<=29.9){
+            binding.txtResultado.text = "Sobrepeso"
+        }else
+            binding.txtResultado.text = "Obesidade"
 
     }
 }

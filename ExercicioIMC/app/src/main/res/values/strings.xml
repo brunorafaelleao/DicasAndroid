@@ -4,4 +4,8 @@
     <string name="digite_altura">Digite a sua altura ex: 1.50</string>
     <string name="calcular">Calcular IMC</string>
     <string name="Diagnostico">Diagnóstico</string>
+    <string name="altura_informada">Sua altura informada:</string>
+    <string name="peso_informado">Seu peso informado:</string>
+    <string name="Resultado">Resultado</string>
+    <string name="IMC_Resultado">Seu IMC é:</string>
 </resources>
