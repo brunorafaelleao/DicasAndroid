@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ListaConvidados</string>
+    <string name="sincronizacao">Sincronização</string>
+    <string name="msgInicial">Antes de iniciar a digitação, faça a sincronização</string>
+</resources>

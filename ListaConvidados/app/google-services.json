@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "862030462002",
+    "project_id": "listaconvidados-teste",
+    "storage_bucket": "listaconvidados-teste.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862030462002:android:38bc7f7a3d071712a6902b",
+        "android_client_info": {
+          "package_name": "com.geindrural.listaconvidados"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnZUTfXgUZ4wtKZslPTYDVyOV5900SqME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
