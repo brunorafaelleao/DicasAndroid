@@ -4,6 +4,8 @@ plugins {
 
     id("com.google.gms.google-services")
 
+    id("kotlin-kapt")
+
 }
 
 android {
@@ -54,15 +56,15 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     //firebase padrão. configuração feita ao criar o projeto no firebase
-    implementation(platform("com.google.firebase:firebase-bom:33.4.0"))
-    implementation("com.google.firebase:firebase-analytics")
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.analytics)
 
     //acesso ao banco configurado para acessar o firestore
-    implementation ("com.google.firebase:firebase-firestore-ktx:25.1.0")
+    implementation (libs.firebase.firestore.ktx)
 
     //dependencias do room para salvar dados offline
-    implementation("androidx.room:room-runtime:2.5.0")
-    annotationProcessor("androidx.room:room-compiler:2.5.0")
-    implementation("androidx.room:room-ktx:2.5.0")
+//    implementation(libs.androidx.room.runtime)
+//    annotationProcessor(libs.androidx.room.compiler)
+//    implementation(libs.androidx.room.ktx)
 
 }
